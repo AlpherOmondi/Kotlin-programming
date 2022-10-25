@@ -5,4 +5,9 @@ fun main(args: Array<String>) {
     kevin.name = "Alpha"
     println("Name is ${kevin.name}")
     kevin.display()
+    kevin.displayWithLambda(::printname)
+}
+
+fun printname(name:String){
+    println(name)
 }
