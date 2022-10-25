@@ -4,4 +4,5 @@ fun main(args: Array<String>) {
     val kevin = Person("")
     kevin.name = "Alpha"
     println("Name is ${kevin.name}")
+    kevin.display()
 }
